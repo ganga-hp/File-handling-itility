@@ -61,6 +61,9 @@ public class FileReadWriteModify {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        Failed to delete the file.
+        creating a file
+        inserting a file
 
         // Write the modified content back to the file
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
